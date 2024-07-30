@@ -1,0 +1,25 @@
+.pagination-list {
+  text-align: center;
+
+  &__item {
+    min-width: 40px;
+    height: 100%;
+    color: var(--color-neutral-60);
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 5px;
+
+    &--is-active {
+      background: var(--color-light-90);
+    }
+  }
+
+  &__wrapper {
+    border-radius: 5px;
+    border: 1px solid var(--color-neutral-10);
+    height: 50px;
+    display: inline-flex;
+    padding: 10px;
+  }
+}
